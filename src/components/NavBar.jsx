@@ -10,11 +10,11 @@ function NavBar() {
         ];
 
     return (
-        <nav className="text-blue-500 hover:text-blue-700 text-xl flex items-center justify-between gap-4 w-[400px]">
+        <nav className="text-xl flex items-center justify-between gap-4 w-[400px]">
             {links
                 .filter(link => link.path !== location.pathname)
                 .map(link => (
-                    <a key={link.path} href={link.path}>
+                    <a className="text-blue-200 hover:text-blue-500"  key={link.path} href={link.path}>
                         {link.label}
                     </a>
                 ))}

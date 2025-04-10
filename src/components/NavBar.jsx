@@ -12,7 +12,7 @@ function NavBar() {
         ];
 
     return (
-        <nav className="text-xl flex items-center justify-between gap-4 w-[400px]">
+        <nav className="text-xl flex items-center justify-between gap-4 w-[300px]">
             {links
                 .filter(link => link.path !== location.pathname)
                 .map(link => (

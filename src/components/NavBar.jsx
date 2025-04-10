@@ -3,6 +3,8 @@ import {useLocation} from "react-router-dom";
 function NavBar() {
 
         const location = useLocation();
+        // The links to be displayed in the navbar - add new links here
+        // TODO: Add dynamic formatting
         const links = [
             { path: "/", label: "Home" },
             { path: "/login", label: "Login" },

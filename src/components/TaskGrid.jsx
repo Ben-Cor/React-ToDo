@@ -1,7 +1,7 @@
 function TaskGrid() {
     return (
-        <section>
-            <table>
+        <section className="Flex items-center justify-center w-full">
+            <table className="w-full border border-gray-300 flex items-center justify-between">
                 <thead>
                     <tr>
                         <th>Task</th>

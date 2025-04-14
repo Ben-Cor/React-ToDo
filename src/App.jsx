@@ -10,9 +10,6 @@ function App() {
   return (
     <BrowserRouter>
         <Header />
-        <h1 className="text-3xl text-black font-bold underline">
-          Hello world!
-        </h1>
 
       <Routes>
         <Route path="/" element={<Homepage />} />

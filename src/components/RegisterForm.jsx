@@ -1,7 +1,7 @@
 function RegisterForm() {
   return (
     <div>
-      <h1>Register</h1>
+      <h2>Register</h2>
       <form>
         <div>
           <label htmlFor="username">Username:</label>

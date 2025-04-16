@@ -8,8 +8,7 @@ function Footer() {
         px-8
         bg-gray-800
         text-white
-        p-4
-        ">
+        p-4">
             <p>Copyright Ben Cornell</p>
             <a target={"_blank"} href={"https://github.com/Ben-Cor"}>Github</a>
         </footer>
